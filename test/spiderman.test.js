@@ -16,5 +16,6 @@ describe('Unit Test para la clase Spiderman', () => {
     expect(tobeyMaguire.actor).toBe('Tobey Maguire')
     expect(tobeyMaguire.movies).toBe(4)
     expect(tobeyMaguire.studio).toBe('Marvel Entertainmen')
+    expect(tobeyMaguire.getInfo()).toBe('Hey, I am Tobey Maguire from Marvel Entertainmen')
   })
 })
