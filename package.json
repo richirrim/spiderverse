@@ -8,8 +8,9 @@
   },
   "scripts": {
     "test": "standard && node ./node_modules/.bin/jest",
-    "start": "standard && node index.js",
-    "fixjs": "npx standard --fix"
+    "start": "standard && node index.js", 
+    "lint": "standard",
+    "lint-fix": "standard --fix"
   },
   "standard": {
     "env": [ "jest" ]
