@@ -1,0 +1,30 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "Práctica 2",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && node ./node_modules/.bin/jest",
+    "start": "standard && node index.js"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richirrim/spiderverse.git"
+  },
+  "author": "@richirrim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richirrim/spiderverse/issues"
+  },
+  "homepage": "https://github.com/richirrim/spiderverse#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "standard": "^17.0.0"
+  }
+}
